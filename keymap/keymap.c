@@ -142,7 +142,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
     case _MAIL: 
       if (record->event.pressed) {
-        SEND_STRING("manuelgabrielt@gmail.com");
+        SEND_STRING("@gmail.com");
       }
     break;      
     }
